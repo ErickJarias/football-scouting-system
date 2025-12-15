@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Data sensible (NO subir datos reales a GitHub público)
+data/amateur/*.csv
+data/raw/*.csv
+data/processed/*.csv
+
+# Videos (muy pesados)
+*.mp4
+*.avi
+*.mov
+video_analysis/
+
+# Excel temporal
+templates/*.xlsx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
