@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: favelascouting
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run amateur_data_entry.py --server.port=$PORT --server.address=0.0.0.0 --server.headless=true
